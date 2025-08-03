@@ -10,17 +10,18 @@
 2. Unzip files and move to a convenient location (e.g. Documents)
 3. Go into your browser settings (Firefox: `about:preferences`, Chrome/chromium-based: `chrome://settings/`)
 4. Set the homepage to `file:///[PATH TO STARTPAGE]/index.html` (example: `file:///D:/documents/startpage/index.html`)
-5. Open the homepage and check if things are working.<!-- There will be no weather data, and we will fix as part of the next step.
-6. Open index.html in your code editor of choice.
+5. Open the homepage and check if things are working.
+<!-- 6. Open index.html in your code editor of choice.
    1. Find the `<section>` elements and replace the `website text`, `section header`, and `https://example.com` with your own links and text. You can copy-paste or delete the `<section>` elements to fit your needs (I recommend a maximum of 3-4 sections).
    2. If you want the weather to be displayed, leave the `weather` variable as-is. Otherwise, change it to `false` and skip the rest of this step.
    3. In the `<script>` tag, replace the `[API KEY]` with your own OpenWeatherMap API key. (See [here](#getting-an-openweathermap-api-key) for instructions.)
    4. In the `<script>` tag, replace the `lon` and `lat` variables with your own longitude and latitude respectively.
-   5. In the `<script>` tag, change the `units` variable to either `imperial` or `metric`.-->
-6. If you want to replace the image, replace the `image.gif` file with your own image/gif of choice.
+   5. In the `<script>` tag, change the `units` variable to either `imperial` or `metric`. -->
+6. If you want to replace the image, replace the `image.gif` file with your own image/gif of choice, some funny gifs are in the "gifs" folder.
 7. You should now have a working startpage!
 
-<!-- ## Getting an OpenWeatherMap API Key
+<!-- 
+# Getting an OpenWeatherMap API Key
 1. Go to [OpenWeatherMap](https://home.openweathermap.org/users/sign_up) and sign up.
 2. Check your inbox for an email from OpenWeatherMap to verify your email address, and verify it.
 3. Go to [the OpenWeatherMap API page](https://home.openweathermap.org/api_keys). There should be an API key already generated for you. If not, generate one. The API key name does not matter.
@@ -34,7 +35,7 @@ By default, the search engine is DuckDuckGo. You can change it to another search
 |Google|`https://google.com/search`|
 |Duckduckgo|`https://duckduckgo.com/`|
 |Bing|`https://bing.com/search`|
-|Ask Jeeves (why)|`https://askjeeves.net/results.html`|-->
+|Ask Jeeves (why)|`https://askjeeves.net/results.html`| -->
 
 #### Using as a new tab/disabling animations
 This is meant as a start page, and not a new tab page because of the animations. 
@@ -46,4 +47,4 @@ This [(firefox)](https://addons.mozilla.org/en-US/firefox/addon/new-tab-override
 2. Rename it to `newTab.html` (you can name it other things too, I just recommend this).
 3. Open `newTab.html` file in your code editor of choice.
    1. In the `<script>` tag, change the `animated` variable to `false`.
-4. In the extension settings, set the new tab page to `file:///[PATH TO STARTPAGE]/newTab.html` (example: `file:///D:/documents/startpage/newTab.html`)-->
+4. In the extension settings, set the new tab page to `file:///[PATH TO STARTPAGE]/newTab.html` (example: `file:///D:/documents/startpage/newTab.html`) -->
