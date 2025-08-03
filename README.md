@@ -16,7 +16,7 @@
    2. If you want the weather to be displayed, leave the `weather` variable as-is. Otherwise, change it to `false` and skip the rest of this step.
    3. In the `<script>` tag, replace the `[API KEY]` with your own OpenWeatherMap API key. (See [here](#getting-an-openweathermap-api-key) for instructions.)
    4. In the `<script>` tag, replace the `lon` and `lat` variables with your own longitude and latitude respectively.
-   5. In the `<script>` tag, change the `units` variable to either `imperial` or `metric`.--->
+   5. In the `<script>` tag, change the `units` variable to either `imperial` or `metric`.-->
 6. If you want to replace the image, replace the `image.gif` file with your own image/gif of choice.
 7. You should now have a working startpage!
 
